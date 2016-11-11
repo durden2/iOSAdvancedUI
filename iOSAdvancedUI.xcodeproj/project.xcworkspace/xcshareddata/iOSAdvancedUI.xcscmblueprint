@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A0D96BD5BC6A0CE0F7A09CA3350638FEECBA5539",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A0D96BD5BC6A0CE0F7A09CA3350638FEECBA5539" : 9223372036854775807,
+    "089FBD54BBD6A1C0139CBC8F9B7A70863D7CE03A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "22E65F9A-B817-4F55-9D91-B17AACF1A357",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A0D96BD5BC6A0CE0F7A09CA3350638FEECBA5539" : "iOSAdvancedUI\/",
+    "089FBD54BBD6A1C0139CBC8F9B7A70863D7CE03A" : "iOSLab2_losek\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iOSAdvancedUI",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOSAdvancedUI.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Nevaan\/iOSLab2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "089FBD54BBD6A1C0139CBC8F9B7A70863D7CE03A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/durden2\/iOSAdvancedUI.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A0D96BD5BC6A0CE0F7A09CA3350638FEECBA5539"
+    }
+  ]
+}
