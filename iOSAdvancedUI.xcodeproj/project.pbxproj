@@ -14,6 +14,11 @@
 		901E64021DD64AF800804E2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901E64001DD64AF800804E2E /* LaunchScreen.storyboard */; };
 		901E640D1DD64AF800804E2E /* iOSAdvancedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901E640C1DD64AF800804E2E /* iOSAdvancedUITests.swift */; };
 		901E64181DD64AF800804E2E /* iOSAdvancedUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901E64171DD64AF800804E2E /* iOSAdvancedUIUITests.swift */; };
+		901E64261DD64B8000804E2E /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901E64251DD64B8000804E2E /* Album.swift */; };
+		901E64281DD6592800804E2E /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901E64271DD6592800804E2E /* AlbumTableViewCell.swift */; };
+		901E642A1DD65BAF00804E2E /* AlbumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901E64291DD65BAF00804E2E /* AlbumTableViewController.swift */; };
+		901E642E1DD662AC00804E2E /* albums.plist in Resources */ = {isa = PBXBuildFile; fileRef = 901E642D1DD662AC00804E2E /* albums.plist */; };
+		901E64301DD6709200804E2E /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901E642F1DD6709200804E2E /* AlbumViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		901E64131DD64AF800804E2E /* iOSAdvancedUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAdvancedUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		901E64171DD64AF800804E2E /* iOSAdvancedUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAdvancedUIUITests.swift; sourceTree = "<group>"; };
 		901E64191DD64AF800804E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		901E64251DD64B8000804E2E /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		901E64271DD6592800804E2E /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		901E64291DD65BAF00804E2E /* AlbumTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumTableViewController.swift; sourceTree = "<group>"; };
+		901E642D1DD662AC00804E2E /* albums.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = albums.plist; path = ../albums.plist; sourceTree = "<group>"; };
+		901E642F1DD6709200804E2E /* AlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,14 @@
 		901E63F61DD64AF800804E2E /* iOSAdvancedUI */ = {
 			isa = PBXGroup;
 			children = (
+				901E642D1DD662AC00804E2E /* albums.plist */,
 				901E63F71DD64AF800804E2E /* AppDelegate.swift */,
 				901E63F91DD64AF800804E2E /* ViewController.swift */,
 				901E63FB1DD64AF800804E2E /* Main.storyboard */,
+				901E642F1DD6709200804E2E /* AlbumViewController.swift */,
+				901E64291DD65BAF00804E2E /* AlbumTableViewController.swift */,
+				901E64271DD6592800804E2E /* AlbumTableViewCell.swift */,
+				901E64251DD64B8000804E2E /* Album.swift */,
 				901E63FE1DD64AF800804E2E /* Assets.xcassets */,
 				901E64001DD64AF800804E2E /* LaunchScreen.storyboard */,
 				901E64031DD64AF800804E2E /* Info.plist */,
@@ -234,6 +249,7 @@
 			files = (
 				901E64021DD64AF800804E2E /* LaunchScreen.storyboard in Resources */,
 				901E63FF1DD64AF800804E2E /* Assets.xcassets in Resources */,
+				901E642E1DD662AC00804E2E /* albums.plist in Resources */,
 				901E63FD1DD64AF800804E2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901E64301DD6709200804E2E /* AlbumViewController.swift in Sources */,
 				901E63FA1DD64AF800804E2E /* ViewController.swift in Sources */,
 				901E63F81DD64AF800804E2E /* AppDelegate.swift in Sources */,
+				901E642A1DD65BAF00804E2E /* AlbumTableViewController.swift in Sources */,
+				901E64261DD64B8000804E2E /* Album.swift in Sources */,
+				901E64281DD6592800804E2E /* AlbumTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
